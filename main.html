@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GRADIENT GENERATOR</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload = "generation()">
+	<div>
+		<p id = "logo">Gradient Generator</p>
+		<hr id = "logohr"/>
+	</div>
+	<div id = "gg">
+		<canvas id = "canvas" width="512" height="512"></canvas>
+		<div>
+			<p id = "pRed">Red:</p>
+			<input type="range" id = "red" value="100">
+			<p id = "pGreen">Green:</p>
+			<input type="range" id = "green" value="100">
+			<p id = "pBlue">Blue:</p>
+			<input type="range" id = "blue" value="45">
+		</div>
+		<button onclick = "generation()" id = "bGeneration">GENERATION</button>
+		<input id = "fileName" value = "gradient">
+		<button onclick = "download()"id = "download">Download img</button>
+
+		<script src = "./main.js"></script>
+	</div>
+</body>
+</html>

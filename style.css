@@ -1,0 +1,41 @@
+#logo {
+	font-size: 3em;
+	font-family: "Comic Sans MS";
+	transform: translate(0, -30px);
+}
+
+#logohr {
+	transform: translate(0, -50px);
+	color: #000000;
+	background: #000000;
+	height: 3px;
+	border: none;
+}
+
+#red {
+	transform: translate(0, -10px);
+}
+
+#green {
+	transform: translate(0, -30px);
+}
+
+#blue {
+	transform: translate(0, -50px);
+}
+
+#pGreen {
+	transform: translate(0, -20px);
+}
+
+#pBlue {
+	transform: translate(0, -40px);
+}
+
+#gg {
+	transform: translate(0, -50px);
+}
+
+#bGeneration {
+	transform: translate(0, -20px);
+}
